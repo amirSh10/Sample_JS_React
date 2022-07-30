@@ -1,11 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import Sample from './component/sample.js';
+import Calculator from './component/AmirReza/calculator.js';
 
 function App() {
   return(<>
-  <Sample/>
+  <Calculator/>
   </>)
 }
 const root = ReactDOM.createRoot(document.getElementById('root'));
